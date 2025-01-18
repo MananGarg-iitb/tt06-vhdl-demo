@@ -11,7 +11,7 @@ project:
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_vhdl_seven_segment_seconds"
+  top_module:  "tt_um_full_adder"
 
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:
@@ -20,34 +20,34 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "compare bit 11"
-  ui[1]: "compare bit 12"
-  ui[2]: "compare bit 13"
-  ui[3]: "compare bit 14"
-  ui[4]: "compare bit 15"
-  ui[5]: "compare bit 16"
-  ui[6]: "compare bit 17"
-  ui[7]: "compare bit 18"
+  ui[0]: "0"
+  ui[1]: "0"
+  ui[2]: "0"
+  ui[3]: "0"
+  ui[4]: "0"
+  ui[5]: "0"
+  ui[6]: "0"
+  ui[7]: "0"
 
   # Outputs
-  uo[0]: "segment a"
-  uo[1]: "segment b"
-  uo[2]: "segment c"
-  uo[3]: "segment d"
-  uo[4]: "segment e"
-  uo[5]: "segment f"
-  uo[6]: "segment g"
-  uo[7]: "dot"
+  uo[0]: "0"
+  uo[1]: "0"
+  uo[2]: "0"
+  uo[3]: "0"
+  uo[4]: "0"
+  uo[5]: "0"
+  uo[6]: "0"
+  uo[7]: "0"
 
   # Bidirectional pins
-  uio[0]: "second counter bit 0"
-  uio[1]: "second counter bit 1"
-  uio[2]: "second counter bit 2"
-  uio[3]: "second counter bit 3"
-  uio[4]: "second counter bit 4"
-  uio[5]: "second counter bit 5"
-  uio[6]: "second counter bit 6"
-  uio[7]: "second counter bit 7"
+  uio[0]: ""
+  uio[1]: ""
+  uio[2]: ""
+  uio[3]: ""
+  uio[4]: ""
+  uio[5]: ""
+  uio[6]: ""
+  uio[7]: ""
 
 # Do not change!
 yaml_version: 6
